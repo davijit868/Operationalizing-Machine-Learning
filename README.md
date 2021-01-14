@@ -38,5 +38,12 @@ AutoML produced the best model i.e. VotingEnsemble with 91.9% accurcy.
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
+## Improvements and Future Work
+
+- K-Fold cross validation techniques with deep learning enbled can be set in the AutoML configuration to get better accuracy.
+- The swagger json file can be modified to include additional information about the model in real time for datasets that are updated constantly and not uploaded.
+- Comparing the model results with a hyperdrive configuration to see what parameters are better at predicting the output column values.
+- Generating more features from the dataset columns to make the models more open ended.
+
 ## Screen Recording
 https://youtu.be/bA6-QFxK0Bw
