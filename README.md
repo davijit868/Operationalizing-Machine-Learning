@@ -8,17 +8,19 @@ This is the second project of Udacity Machine Learning Engineer with Microsoft A
 ## Key Steps
 ### Step 1: Authentication
 
+I have used the lab environment provided by Udacity for this project so this step does not apply for my case.
+
 ### Step 2: Automated ML Experiment
 
-Registered dataset
+In this step Bank Marketing Dataset has been registered to Azure Machine Learning Studio from URI.
 
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_1.png)
 
-Experiment completed
+An AutoML experiment has been created to model the data as classication task.
 
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_2.png)
 
-Best model
+AutoML produced the best model i.e. VotingEnsemble with 91.9% accurcy.
 
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_3.png)
 
