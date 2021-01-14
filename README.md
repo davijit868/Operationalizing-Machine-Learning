@@ -34,7 +34,9 @@ The best model achived by AutoML has been deployed using Azure Container Instanc
 
 Logging has been enabled for the endpoint using log.py script. 
 
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_5.png)
 
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
 
 ### Step 5: Swagger Documentation
 
