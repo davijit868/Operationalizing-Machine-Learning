@@ -1,6 +1,6 @@
 # Operationalizing Machine Learning
 
-*TODO:* Write an overview to your project.
+This is the second project of Udacity Machine Learning Engineer with Microsoft Azure Nanodegree Program. In this project we are trying to build deploy a model that is used to predict whether a client will accept a term deposit or not based on the direct marketing campaigns of a company. Using Azure and its workspace, this project looks at creating a cloud based machine learning model, from building, deployment to consumption and finally publication. It begins with uploading the dataset and using the AutoML function on Azure to generate the best model using a metric and ending criteria. The model is then deployed using Azure ACI which generates a swagger URI and REST API endpoint. It also streamlines the entire flow using a pipeline.
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.
