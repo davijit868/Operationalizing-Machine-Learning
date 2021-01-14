@@ -9,8 +9,18 @@
 ### Step 1: Authentication
 
 ### Step 2: Automated ML Experiment
-Registered dataset <br>
+
+Registered dataset
+
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_1.png)
+
+Experiment completed
+
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_2.png)
+
+Best model
+
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_3.png)
 
 ### Step 3: Deploy the Best Model
 
@@ -27,7 +37,4 @@ Registered dataset <br>
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+https://youtu.be/bA6-QFxK0Bw
