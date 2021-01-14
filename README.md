@@ -34,17 +34,33 @@ The best model achived by AutoML has been deployed using Azure Container Instanc
 
 Logging has been enabled for the endpoint using log.py script. 
 
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_5.png)
 
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
 
 ### Step 5: Swagger Documentation
 
+swagger.json file is downloaded and kept in the same directory(swagger) as swagger.sh and server.py. Then swagger.sh file is executed which runs swagger ui as local containerrized application, after that server.py is executed which creates a python local server.
+
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
+
 ### Step 6: Consume Model Endpoints
+
+Model enpoints are consumed using endpoint.py script which sends sample data for prediction and the output is received in console as JSON payload.
+
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
 
 ### Step 7: Create, Publish and Consume a Pipeline
 
-*TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
+Please find the below screenshots which describes the creation, publication and consumption of pipeline using aml-pipelines-with-automated-machine-learning-step.ipynb
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
+
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
+
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
+
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
 
 ## Improvements and Future Work
 
