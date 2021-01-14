@@ -9,7 +9,9 @@
 ### Step 1: Authentication
 
 ### Step 2: Automated ML Experiment
+Registered dataset <br>
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_1.png)
+
 ### Step 3: Deploy the Best Model
 
 ### Step 4: Enable Logging
