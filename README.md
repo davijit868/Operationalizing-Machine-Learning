@@ -42,25 +42,31 @@ Logging has been enabled for the endpoint using log.py script.
 
 swagger.json file is downloaded and kept in the same directory(swagger) as swagger.sh and server.py. Then swagger.sh file is executed which runs swagger ui as local containerrized application, after that server.py is executed which creates a python local server.
 
-![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_7.png)
 
 ### Step 6: Consume Model Endpoints
 
 Model enpoints are consumed using endpoint.py script which sends sample data for prediction and the output is received in console as JSON payload.
 
-![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_8.png)
 
 ### Step 7: Create, Publish and Consume a Pipeline
 
 Please find the below screenshots which describes the creation, publication and consumption of pipeline using aml-pipelines-with-automated-machine-learning-step.ipynb
 
-![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_9.png)
 
-![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_10.png)
 
-![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_11.png)
 
-![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_6.png)
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_12.png)
+
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_13.png)
+
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_14.png)
+
+![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_15.png)
 
 ## Improvements and Future Work
 
