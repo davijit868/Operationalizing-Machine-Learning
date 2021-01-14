@@ -32,6 +32,10 @@ The best model achived by AutoML has been deployed using Azure Container Instanc
 
 ### Step 4: Enable Logging
 
+Logging has been enabled for the endpoint using log.py script. 
+
+
+
 ### Step 5: Swagger Documentation
 
 ### Step 6: Consume Model Endpoints
