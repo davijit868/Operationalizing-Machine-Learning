@@ -1,7 +1,4 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
-
-# Your Project Title Here
+# Operationalizing Machine Learning
 
 *TODO:* Write an overview to your project.
 
@@ -9,6 +6,8 @@
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.
 
 ## Key Steps
+### Step 1: Authentication
+
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
