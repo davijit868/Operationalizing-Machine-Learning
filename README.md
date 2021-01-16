@@ -54,8 +54,6 @@ Deployed model enpoints are consumed using endpoint.py script which sends sample
 
 A AzureML pipeline is created using aml-pipelines-with-automated-machine-learning-step.ipynb notebook, this pipeline helps automate the entire AutoML model building, deployment of best model, creation of enpoint for the deployed model, as well as consumption and publication. The pipeline building process starts with creating a computing instance with a specific number of nodes and running the jupyter notebook on that with the required parameter changed for my specific use case. Please find the below screenshots for those tasks.
 
-Please find the below screenshots which describes the creation, publication and consumption of pipeline using aml-pipelines-with-automated-machine-learning-step.ipynb
-
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_9.png)
 
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_10.png)
