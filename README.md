@@ -26,7 +26,7 @@ AutoML tried a lot of algorithms and produced the best model i.e. VotingEnsemble
 
 ### Step 3: Deploy the Best Model
 
-The best model achived by AutoML has been deployed using Azure Container Instances with key-based authentication enbled
+The best model achived by AutoML has been deployed using Azure Container Instances with key-based authentication enbled. The deployment status is heathy which means it is successfully deployed and running.
 
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_4.png)
 
