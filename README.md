@@ -16,11 +16,11 @@ In this step Bank Marketing Dataset has been registered to Azure Machine Learnin
 
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_1.png)
 
-An AutoML experiment has been created to model the data as classication task.
+An AutoML experiment has been created to model the data as classication task. As per the experiment creation process a compute instance has been provisioned and certain other patamer like metrics, maximum execution time etc has been set. 
 
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_2.png)
 
-AutoML produced the best model i.e. VotingEnsemble with 91.9% accurcy.
+AutoML tried a lot of algorithms and produced the best model i.e. VotingEnsemble with 91.9% accuracy within just 30 minutes. 
 
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_3.png)
 
@@ -32,7 +32,7 @@ The best model achived by AutoML has been deployed using Azure Container Instanc
 
 ### Step 4: Enable Logging
 
-Logging has been enabled for the endpoint using log.py script. 
+Config.json is downloaded from portal which has all the necessary configuration settings. We choose the best model for deployment and enable key based "Authentication" while deploying the model using Azure Container Instance (ACI). The executed code in logs.py enables Application Insights. "Application Insights enabled" is disabled before executing logs.py. We can see the logs in command prompt also using the application insights url provided in the endpoint.
 
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_5.png)
 
@@ -40,17 +40,19 @@ Logging has been enabled for the endpoint using log.py script.
 
 ### Step 5: Swagger Documentation
 
-swagger.json file is downloaded and kept in the same directory(swagger) as swagger.sh and server.py. Then swagger.sh file is executed which runs swagger ui as local containerrized application, after that server.py is executed which creates a python local server.
+swagger.json file is downloaded and kept in the same directory(swagger) as swagger.sh and server.py. Then swagger.sh file is executed which runs swagger ui as local containerized application, after that server.py is executed which creates a python local server. The swagger documentaion generated from JSON file, specific to our endpoint can be seen using the locally hosted swagger ui which documents the score endpoint i.e. input output variables and its format.
 
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_7.png)
 
 ### Step 6: Consume Model Endpoints
 
-Model enpoints are consumed using endpoint.py script which sends sample data for prediction and the output is received in console as JSON payload.
+Deployed model enpoints are consumed using endpoint.py script which sends sample data for prediction and the output is received in console as JSON payload. The endpoint.py script has been updated with the URI for the endpoint and the key for authentication. Using HTTP post method we sent the data to endpoint as JSON body.
 
 ![alt text](https://github.com/davijit868/Operationalizing-Machine-Learning/blob/master/Screenshoots/screenshot_8.png)
 
 ### Step 7: Create, Publish and Consume a Pipeline
+
+A AzureML pipeline is created using aml-pipelines-with-automated-machine-learning-step.ipynb notebook, this pipeline helps automate the entire AutoML model building, deployment of best model, creation of enpoint for the deployed model, as well as consumption and publication. The pipeline building process starts with creating a computing instance with a specific number of nodes and running the jupyter notebook on that with the required parameter changed for my specific use case. Please find the below screenshots for those tasks.
 
 Please find the below screenshots which describes the creation, publication and consumption of pipeline using aml-pipelines-with-automated-machine-learning-step.ipynb
 
